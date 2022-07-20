@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="zh-CN" class="loading">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>在互联网海洋中发现你的源站IP并且防护 - 辰桑星海~BLOG</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="google" content="notranslate" />
+    <meta name="keywords" content="BLOG,"> 
+    <meta name="description" content="在互联网海洋中发现你的源站IP并且防护很多站长应该都知道有时候哪怕使用了CDN也未必完全隐藏了源站IP
+各位站长可以使用下面的网站去查询一下自己的源站IP有没有泄露
+Censys: 一款洞察互联网秘,"> 
+    <meta name="author" content="辰桑星海"> 
+    <link rel="alternative" href="atom.xml" title="辰桑星海~BLOG" type="application/atom+xml"> 
+    <link rel="icon" href="/img/favicon.png"> 
+    
+    
+    
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:title" content="在互联网海洋中发现你的源站IP并且防护 - 辰桑星海~BLOG"/>
+    <meta name="twitter:description" content="在互联网海洋中发现你的源站IP并且防护很多站长应该都知道有时候哪怕使用了CDN也未必完全隐藏了源站IP
+各位站长可以使用下面的网站去查询一下自己的源站IP有没有泄露
+Censys: 一款洞察互联网秘,"/>
+    
+    
+    
+    
+    <meta property="og:site_name" content="辰桑星海~BLOG"/>
+    <meta property="og:type" content="object"/>
+    <meta property="og:title" content="在互联网海洋中发现你的源站IP并且防护 - 辰桑星海~BLOG"/>
+    <meta property="og:description" content="在互联网海洋中发现你的源站IP并且防护很多站长应该都知道有时候哪怕使用了CDN也未必完全隐藏了源站IP
+各位站长可以使用下面的网站去查询一下自己的源站IP有没有泄露
+Censys: 一款洞察互联网秘,"/>
+    
+<link rel="stylesheet" href="/css/diaspora.css">
+
+    <script>window.searchDbPath = "/search.xml";</script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap" rel="stylesheet">
+<meta name="generator" content="Hexo 5.4.2"></head>
+
+<body class="loading">
+    <span id="config-title" style="display:none">辰桑星海~BLOG</span>
+    <div id="loader"></div>
+    <div id="single">
+    <div id="top" style="display: block;">
+    <div class="bar" style="width: 0;"></div>
+    <a class="iconfont icon-home image-icon" href="javascript:;" data-url="https://blog.owo233.moe"></a>
+    <div title="播放/暂停" class="iconfont icon-play"></div>
+    <h3 class="subtitle">在互联网海洋中发现你的源站IP并且防护</h3>
+    <div class="social">
+        <div>
+            <div class="share">
+                <a title="获取二维码" class="iconfont icon-scan" href="javascript:;"></a>
+            </div>
+            <div id="qr"></div>
+        </div>
+    </div>
+    <div class="scrollbar"></div>
+</div>
+
+    <div class="section">
+        <div class="article">
+    <div class='main'>
+        <h1 class="title">在互联网海洋中发现你的源站IP并且防护</h1>
+        <div class="stuff">
+            <span>二月 20, 2022</span>
+            
+
+        </div>
+        <div class="content markdown">
+            <h2 id="在互联网海洋中发现你的源站IP并且防护"><a href="#在互联网海洋中发现你的源站IP并且防护" class="headerlink" title="在互联网海洋中发现你的源站IP并且防护"></a>在互联网海洋中发现你的源站IP并且防护</h2><p>很多站长应该都知道有时候哪怕使用了CDN也未必完全隐藏了源站IP</p>
+<p>各位站长可以使用下面的网站去查询一下自己的源站IP有没有泄露</p>
+<p><a target="_blank" rel="noopener" href="https://search.censys.io/">Censys: 一款洞察互联网秘密的新型搜索引擎</a></p>
+<p><a target="_blank" rel="noopener" href="https://www.shodan.io/">黑暗谷歌</a></p>
+<hr>
+<p>大多数的源站IP泄露都是因为源站的证书泄露的</p>
+<p>给源站上个空白证书可以避免</p>
+<p>具体的防护可以看看 <a target="_blank" rel="noopener" href="https://licaoz.com/post/hide-your-origin-ip-in-the-internet-ocean">LiCaoZ</a> 的这篇文章</p>
+<p>密钥(KEY)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line">-----BEGIN RSA PRIVATE KEY-----</span><br><span class="line">MIICXQIBAAKBgQDXyF6m81zOeoOPvfk6nGKtyfczRG6/yeSkcc+66vGvq0s8oB7V</span><br><span class="line">cCzLl1YcNsru3ixelPR2z1zvjKqa9/Aqh8+TvP1kGGbLD/mynjnj8l+0vVzZ+vnz</span><br><span class="line">AH0RN9fpqzlpHmFBHQzQ25AtIAH8pXOL1541YN0TNPRA3kHUCL0FH8CkwwIDAQAB</span><br><span class="line">AoGAQ4ejh6AV5VCWJ8AOZXdXsofIYzUBa+glNAmiNx8b8BwteZWq0KVAf56nBkFn</span><br><span class="line">lQXW4OrA7wXKUfW11rXNZaIHJePJXv1swkN9+Em18Hon6BrtcqnKAwzAbhok3SzY</span><br><span class="line">IVjI/zrgOABH6+ii77xCRBzI1itVPNN88DAUHC7PYLYiaaECQQD7PSoij37+kMc/</span><br><span class="line">wPeEkl9r3vzU0OrsCsjU8Ev714OaoL/SIuAh6nsiRh9rcbUrrpGSSzIcmsk9HMDa</span><br><span class="line">hXBNkNl5AkEA298yQvssaUc4tbEWxAVfd9DsHJdCdbXfgf9Dy5/tpCzYncY7T0du</span><br><span class="line">VVHqKu3jXWoMc5XlesiCOerU/DIlMM8dGwJBANQn7GLO5iC1xWvS2bF7oVSIMtzL</span><br><span class="line">pvW4jaszWBbNAPccc59RkA9T4LMqn/GtTZ4bhhYRpbl+BB21IC3nrNPzU5ECQG8T</span><br><span class="line">Ln0QDruQs2F2eR3F6RjKfr1i3LxCiQtPPZycypzp2vS5tDS0zVRk8XuGehoy/N9X</span><br><span class="line">lnqU2NURgU92tbsWpokCQQDdc9tU3B/OM/YfzUNwvOLmUVwrJX6PFSFsOn+XHrCC</span><br><span class="line">q9LcGEAHyzaf5GEWje84ee4rkv5oaZcwll3dg4IioBnC</span><br><span class="line">-----END RSA PRIVATE KEY-----</span><br></pre></td></tr></table></figure>
+
+<p>证书(PEM格式)</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">-----BEGIN CERTIFICATE-----</span><br><span class="line">MIIBkjCB/AIJAI3bCYqa39hiMA0GCSqGSIb3DQEBBQUAMA0xCzAJBgNVBAYTAiAg</span><br><span class="line">MCAXDTE4MTEyNDA5MDMzOFoYDzIwOTkxMjMxMDkwMzM4WjANMQswCQYDVQQGEwIg</span><br><span class="line">IDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEA18hepvNcznqDj735Opxircn3</span><br><span class="line">M0Ruv8nkpHHPuurxr6tLPKAe1XAsy5dWHDbK7t4sXpT0ds9c74yqmvfwKofPk7z9</span><br><span class="line">ZBhmyw/5sp454/JftL1c2fr58wB9ETfX6as5aR5hQR0M0NuQLSAB/KVzi9eeNWDd</span><br><span class="line">EzT0QN5B1Ai9BR/ApMMCAwEAATANBgkqhkiG9w0BAQUFAAOBgQBiqHZsuVP09ubT</span><br><span class="line">GzBSlAFEoqbM63sU51nwQpzkVObgGm9v9nnxS8Atid4be0THsz8nVjWcDym3Tydp</span><br><span class="line">lznrhoSrHyqAAlK3/WSMwyuPnDCNM5g1RdsV40TjZXk9/md8xWxGJ6n1MoBdlK8T</span><br><span class="line">H6h2ROkf59bb096TttB8lxXiT0uiDQ==</span><br><span class="line">-----END CERTIFICATE-----</span><br></pre></td></tr></table></figure>
+
+
+            <!--[if lt IE 9]><script>document.createElement('audio');</script><![endif]-->
+            <audio id="audio" loop="1" preload="auto" controls="controls" data-autoplay="false">
+                <source type="audio/mpeg" src="">
+            </audio>
+            
+                <ul id="audio-list" style="display:none">
+                    
+                        
+                            <li title="0" data-url="//163/ISI-Duca.mp3"></li>
+                        
+                    
+                </ul>
+            
+        </div>
+        
+        
+    <div id="gitalk-container" class="comment link"
+		data-enable="false"
+        data-ae="false"
+        data-ci=""
+        data-cs=""
+        data-r=""
+        data-o=""
+        data-a=""
+        data-d="false"
+    >查看评论</div>
+
+
+    </div>
+    
+</div>
+
+
+    </div>
+</div>
+</body>
+
+
+<script src="//lib.baomitu.com/jquery/1.8.3/jquery.min.js"></script>
+<script src="/js/plugin.js"></script>
+<script src="/js/typed.js"></script>
+<script src="/js/diaspora.js"></script>
+
+
+<link rel="stylesheet" href="/photoswipe/photoswipe.css">
+<link rel="stylesheet" href="/photoswipe/default-skin/default-skin.css">
+
+
+<script src="/photoswipe/photoswipe.min.js"></script>
+<script src="/photoswipe/photoswipe-ui-default.min.js"></script>
+
+
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+    <!-- Background of PhotoSwipe. 
+         It's a separate element as animating opacity is faster than rgba(). -->
+    <div class="pswp__bg"></div>
+    <!-- Slides wrapper with overflow:hidden. -->
+    <div class="pswp__scroll-wrap">
+        <!-- Container that holds slides. 
+            PhotoSwipe keeps only 3 of them in the DOM to save memory.
+            Don't modify these 3 pswp__item elements, data is added later on. -->
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+        <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+        <div class="pswp__ui pswp__ui--hidden">
+            <div class="pswp__top-bar">
+                <!--  Controls are self-explanatory. Order can be changed. -->
+                <div class="pswp__counter"></div>
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+                <!-- Preloader demo http://codepen.io/dimsemenov/pen/yyBWoR -->
+                <!-- element will get class pswp__preloader--active when preloader is running -->
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                      <div class="pswp__preloader__cut">
+                        <div class="pswp__preloader__donut"></div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div> 
+            </div>
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</html>
